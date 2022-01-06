@@ -1,0 +1,15 @@
+{
+  "name": "network-tab-formatter",
+  "version": "1.0.0",
+  "description": "Format HAR data to XLSX",
+  "main": "network-tab-extraction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amarnathrao Sulake",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-xlsx": "^0.21.0"
+  }
+}

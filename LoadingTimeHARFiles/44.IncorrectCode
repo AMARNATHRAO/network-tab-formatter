@@ -1,0 +1,330 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "95.0.2"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "95.0.2"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2022-01-06T20:26:11.832+05:30",
+        "id": "page_4",
+        "title": "Arya Muse",
+        "pageTimings": {
+          "onContentLoad": -1,
+          "onLoad": -1
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2022-01-06T20:26:11.832+05:30",
+        "request": {
+          "bodySize": 0,
+          "method": "OPTIONS",
+          "url": "https://cognito-idp.us-east-1.amazonaws.com/",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "cognito-idp.us-east-1.amazonaws.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Access-Control-Request-Method",
+              "value": "POST"
+            },
+            {
+              "name": "Access-Control-Request-Headers",
+              "value": "content-type,x-amz-target,x-amz-user-agent"
+            },
+            {
+              "name": "Origin",
+              "value": "https://muse-qa.goarya.com"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 536
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Thu, 06 Jan 2022 14:56:12 GMT"
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "x-amzn-requestid",
+              "value": "85fc5a64-7f5b-4460-9e4c-9b9a75ecc247"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "content-type,x-amz-target,x-amz-user-agent"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "POST"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": "x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date"
+            },
+            {
+              "name": "access-control-max-age",
+              "value": "172800"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/plain",
+            "size": 0,
+            "text": ""
+          },
+          "redirectURL": "",
+          "headersSize": 414,
+          "bodySize": 414
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 263,
+          "receive": 0
+        },
+        "time": 263,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:1f18:257:8000:17f1:2c1e:690e:e81d",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2022-01-06T20:26:12.101+05:30",
+        "request": {
+          "bodySize": 127,
+          "method": "POST",
+          "url": "https://cognito-idp.us-east-1.amazonaws.com/",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "cognito-idp.us-east-1.amazonaws.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-amz-json-1.1"
+            },
+            {
+              "name": "X-Amz-Target",
+              "value": "AWSCognitoIdentityProviderService.ConfirmSignUp"
+            },
+            {
+              "name": "X-Amz-User-Agent",
+              "value": "aws-amplify/5.0.4 js"
+            },
+            {
+              "name": "Origin",
+              "value": "https://muse-qa.goarya.com"
+            },
+            {
+              "name": "Content-Length",
+              "value": "127"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 586,
+          "postData": {
+            "mimeType": "application/x-amz-json-1.1",
+            "params": [],
+            "text": "{\"ClientId\":\"55kmudnfj0lbnhdk0k2i2gsdt4\",\"ConfirmationCode\":\"535662\",\"Username\":\"jan6_1@yopmail.com\",\"ForceAliasCreation\":true}"
+          }
+        },
+        "response": {
+          "status": 400,
+          "statusText": "Bad Request",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Thu, 06 Jan 2022 14:56:12 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-amz-json-1.1"
+            },
+            {
+              "name": "content-length",
+              "value": "100"
+            },
+            {
+              "name": "x-amzn-requestid",
+              "value": "4553d5c4-dcdc-49b6-a8ff-be514610ff30"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "x-amzn-errortype",
+              "value": "CodeMismatchException:"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": "x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date"
+            },
+            {
+              "name": "x-amzn-errormessage",
+              "value": "Invalid verification code provided, please try again."
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/x-amz-json-1.1",
+            "size": 100,
+            "encoding": "base64",
+            "text": "eyJfX3R5cGUiOiJDb2RlTWlzbWF0Y2hFeGNlcHRpb24iLCJtZXNzYWdlIjoiSW52YWxpZCB2ZXJpZmljYXRpb24gY29kZSBwcm92aWRlZCwgcGxlYXNlIHRyeSBhZ2Fpbi4ifQ=="
+          },
+          "redirectURL": "",
+          "headersSize": 443,
+          "bodySize": 543
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 322,
+          "receive": 0
+        },
+        "time": 322,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:1f18:257:8000:17f1:2c1e:690e:e81d",
+        "connection": "443"
+      }
+    ]
+  }
+}
